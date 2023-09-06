@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    padding: 15px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-size: 50px;
+    background-color: #000000;
+    /* UP, RIGHT, DOWM, LEFT*/
+    padding: 0px 0px 0px 20px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: rgba(0, 255, 255, 0.959);
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-style: oblique;
+    background-color: rgb(150, 49, 150);
+    /* UP, RIGHT, DOWM, LEFT*/
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3,
+a {
+    color: #000000;
+    background-color: rgb(143, 221, 221);
+    /* UP, RIGHT, DOWM, LEFT*/
+    padding: 3px 10px 3px 0px;
+    text-align: right;
+}
+
+footer {
+    margin-top: auto;
+    border-top: 2px solid black;
+    text-align: end;
+    width: auto;
+    background-color: gray;
+    font-weight: bold;
+    padding: 10px 5px 10px 0px;
+    
+}
